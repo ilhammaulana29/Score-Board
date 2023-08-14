@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: #343a40;    
+}
+
+header{
+    background-color: #17a2b8;
+}
+
+header p {
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.waktuPertandingan{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.btnMulai{
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    font-size: 1.8rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btnMulai:hover{
+    color: #17a2b8;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #343a40; */
+    margin-top: 1.6rem;
+}
+
+.ubah{
+    width: max-content;
+    padding: 5px;
+    background-color: #40586e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ubah:hover{
+    background-color: #678aa8;
+}
+
+div p {
+    font-size: 4rem;
+    color: #fff;
+}
+div h1 {
+    font-size: 13rem;
+    text-align: center;
+    color: #fff;
+}
+
+.btn {
+    width: 4rem;
+    padding: 2px;
+    border-radius: 10%;
+    border: none;
+    background-color: #6cddee;
+}
+
+.btn:hover{
+    background-color: #4d9ba7;
+}
+
+.btn p{
+    font-size: 2rem;
+    color: #000;
+}

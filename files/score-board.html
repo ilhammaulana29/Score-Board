@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- link css -->
+    <link rel="stylesheet" href="/assets/styles/style-score.css">
+    <title>Score Board</title>
+</head>
+<body>
+    <div class="container">
+        <header><p>Score Board</p></header>
+        <div class="waktuPertandingan">
+            <h2 id="waktu">Timer: 00.00</h2>
+            <button class="btnMulai"><i class="bi bi-play-circle"></i></button>
+        </div>
+        <main>
+            <div class="team1">
+                <div class="nama-team1">
+                    <p>Team1</p>
+                </div>
+                <button class="ubah ubahTeam1">changeTeam</button>
+                <div class="scoreTeam1">
+                    <h1>0</h1>
+                </div>
+                <button class="btn decrementTeam1"><p>-</p></button>
+                <button class="btn incrementTeam1"><p>+</p></button>
+            </div>
+
+            <div class="team2">
+                <div class="nama-team2">
+                    <p>Team2</p>
+                </div>                
+                <button class="ubah ubahTeam2">changeTeam</button>
+                <div class="scoreTeam2">
+                    <h1>0</h1>
+                </div>
+                <button class="btn decrementTeam2"><p>-</p></button>
+                <button class="btn incrementTeam2"><p>+</p></button>
+            </div>
+        </main>
+    </div>
+    <script src="/assets/scripts/script-score.js"></script>
+</body>
+</html>
